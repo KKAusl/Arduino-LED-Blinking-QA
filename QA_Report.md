@@ -99,3 +99,13 @@ Through this activity, I learned:
 This activity provided practical experience in using GitHub as a collaborative project management and quality assurance platform.
 
 It demonstrated how issues can be identified, documented, analysed and tracked while maintaining proper project documentation and version control.
+
+## 11. Simulation Evidence
+
+The Arduino LED Blinking System was tested using Tinkercad Circuits.
+
+The simulation verifies LED blinking operation and Serial Monitor debugging.
+
+### Tinkercad Circuit and Testing Output
+
+![Tinkercad LED Testing](screenshots/Tinkercad_LED_Test.png)
