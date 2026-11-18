@@ -1,15 +1,32 @@
-// Arduino LED Blinking Project
 
 const int ledPin = 13;
 
+const int onDelay = 1000;
+const int offDelay = 1000;
+
 void setup() {
+
+  // Initialize LED pin as OUTPUT
   pinMode(ledPin, OUTPUT);
+
+  // Initialize Serial Communication
+  Serial.begin(9600);
+
+  Serial.println("Arduino LED Blinking System Started");
+  Serial.println("LED Pin Configuration Verified");
 }
 
 void loop() {
-  digitalWrite(ledPin, HIGH);
-  delay(1000);
 
+  // Turn LED ON
+  digitalWrite(ledPin, HIGH);
+  Serial.println("LED ON");
+
+  delay(onDelay);
+
+  // Turn LED OFF
   digitalWrite(ledPin, LOW);
-  delay(1000);
+  Serial.println("LED OFF");
+
+  delay(offDelay);
 }
