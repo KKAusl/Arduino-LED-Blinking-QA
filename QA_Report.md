@@ -127,4 +127,4 @@ The simulation verifies LED blinking operation and Serial Monitor debugging.
 
 ### Tinkercad Circuit and Testing Output
 
-![Tinkercad LED Testing](screenshots/Tinkercad_LED_Test.png)
+![Tinkercad LED Testing](Tinkercad_LED_Test.png)
