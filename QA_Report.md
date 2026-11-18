@@ -100,9 +100,28 @@ This activity provided practical experience in using GitHub as a collaborative p
 
 It demonstrated how issues can be identified, documented, analysed and tracked while maintaining proper project documentation and version control.
 
-## 11. Simulation Evidence
+## 11. Hardware Simulation and Verification
 
-The Arduino LED Blinking System was tested using Tinkercad Circuits.
+The Arduino LED Blinking System was successfully tested using Tinkercad Circuits with an Arduino Uno R3.
+
+The simulation verified the following:
+
+- Correct LED pin configuration.
+- Successful LED pin initialization.
+- LED blinking with 1000 ms ON and OFF delays.
+- Successful Serial Monitor communication at 9600 baud.
+- Correct display of LED ON and LED OFF messages.
+
+### Simulation Evidence
+
+![Tinkercad LED Testing](Tinkercad_LED_Test.png)
+
+### Final Testing Result
+
+All four documented test cases were successfully verified through simulation.
+
+**Overall Status: PASS**
+
 
 The simulation verifies LED blinking operation and Serial Monitor debugging.
 
